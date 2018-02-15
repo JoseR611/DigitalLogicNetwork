@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=inputA\ inputB\ inputC
+comment0.target=ANDGate(Node,\ Node,\ Node)
+comment0.text=\r\n\ Assigns\ the\ parameters\ to\ the\ superclass\r\n\ @param\ inputA\ A\ Node\ object\ that\ is\ assigned\ to\ the\ constructor\ of\ the\ superclass\r\n\ inputB\ A\ Node\ object\ that\ is\ assigned\ to\ the\ constructor\ of\ the\ superclass\r\n\ inputC\ A\ Node\ object\ that\ is\ assigned\ to\ the\ constructor\ of\ the\ superclass\r\n\ @return\ None\r\n
+comment1.params=
+comment1.target=byte\ calculateOutput()
+comment1.text=\r\n\ Returns\ a\ byte\ based\ on\ the\ inputs\ given\ and\ applying\ the\ AND\ operator\ to\ them\r\n\ @param\ None\r\n\ @return\ A\ byte\ that\ is\ the\ result\ of\ an\ AND\ operator\ and\ two\ values\r\n
+numComments=2

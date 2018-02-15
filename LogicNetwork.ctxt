@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Prints\ out\ the\ result\ of\ the\ input\ nodes\ and\ the\ gates\r\n\ @param\ arg\ A\ string\ array\ containing\ command\ line\ arguments.\r\n\ @return\ Void\r\n
+comment1.params=
+comment1.target=void\ makeConnections()
+comment1.text=\r\n\ Creates\ hashmaps\ of\ gates\ and\ nodes\ and\ creates\ the\ connections\ between\ nodes\ and\ gates\ based\r\n\ off\ the\ text\ file\ being\ read.\r\n\ @param\ None\r\n\ @return\ Void\r\n
+comment2.params=
+comment2.target=byte\ calculateOutput()
+comment2.text=\r\n\ Returns\ the\ value\ of\ the\ node\ Out\r\n\ @param\ None\r\n\ @return\ A\ byte\ that\ represents\ the\ value\ of\ the\ Out\ node\r\n
+numComments=3

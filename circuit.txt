@@ -1,0 +1,12 @@
+g1 AND
+g2 AND
+g3 OR
+g4 NOT
+i1 0 g1
+i2 1 g1
+i3 1 g2
+i4 1 g2
+n1 g1 g3
+n2 g2 g3
+n3 g3 g4
+n4 g4 out

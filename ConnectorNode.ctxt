@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=inputA\ inputB
+comment0.target=ConnectorNode(Gate,\ Gate)
+comment0.text=\r\n\ Assigns\ inputA\ and\ inputB\ to\ the\ superclass\ Node\r\n\ @param\ inputA\ A\ Gate\ object\ to\ be\ used\ in\ the\ constructor\ of\ the\ superclass\r\n\ inputB\ A\ Gate\ object\ to\ be\ used\ in\ the\ constructor\ of\ the\ superclass\r\n\ @return\ None\r\n
+numComments=1

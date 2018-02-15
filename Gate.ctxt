@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=inputA\ inputB\ inputC
+comment0.target=Gate(Node,\ Node,\ Node)
+comment0.text=\r\n\ Assigns\ the\ attributes\ to\ their\ respective\ values\ for\ all\ gates\ except\ for\ the\ NOT\ gate\r\n\ @param\ inputA\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attribute\ forwardNode\r\n\ inputB\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attribute\ backwardNode1\r\n\ inputC\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attribute\ backwardNode2\r\n\ @return\ None\r\n
+comment1.params=inputA\ inputB
+comment1.target=Gate(Node,\ Node)
+comment1.text=\r\n\ Assigns\ the\ attributes\ to\ their\ respective\ values\ for\ a\ NOT\ gate\ and\ assigns\ backwardNode\ to\r\n\ null\r\n\ @param\ inputA\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attribute\ forwardNode\r\n\ inputB\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attibute\ backwardNode1\r\n\ @return\ None\r\n
+comment2.params=
+comment2.target=Node\ getbackwardNode1()
+comment2.text=\r\n\ Returns\ one\ of\ the\ nodes\ that\ is\ connected\ to\ the\ back\ of\ the\ gate\r\n\ @param\ None\r\n\ @return\ A\ Node\ object\ that\ is\ assigned\ to\ backwardNode1\r\n
+comment3.params=
+comment3.target=Node\ getbackwardNode2()
+comment3.text=\r\n\ Returns\ one\ of\ the\ nodes\ that\ is\ connected\ to\ the\ back\ of\ the\ gate\r\n\ @param\ None\r\n\ @return\ A\ Node\ object\ that\ is\ assigned\ to\ backwardNode2\r\n
+comment4.params=input
+comment4.target=void\ setforwardNode(Node)
+comment4.text=\r\n\ Assigns\ the\ Node\ object\ that\ is\ in\ front\ of\ the\ gate\ to\ the\ parameter\ input\r\n\ @param\ input\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attribute\ forwardNode\r\n\ @return\ Void\r\n
+comment5.params=input
+comment5.target=void\ setbackwardNode1(Node)
+comment5.text=\r\n\ Assigns\ a\ Node\ object\ that\ is\ in\ the\ back\ of\ the\ gate\ to\ the\ parameter\ input\r\n\ @param\ input\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attribute\ backwardNode1\r\n\ @return\ Void\r\n
+comment6.params=input
+comment6.target=void\ setbackwardNode2(Node)
+comment6.text=\r\n\ Assigns\ a\ Node\ object\ that\ is\ in\ the\ back\ of\ the\ gate\ to\ the\ parameter\ input\r\n\ @param\ input\ A\ Node\ object\ that\ is\ assigned\ to\ the\ attribute\ backwardNode2\r\n\ @return\ Void\r\n
+comment7.params=
+comment7.target=byte\ calculateOutput()
+comment7.text=\r\n\ Abstract\ method\ to\ calculate\ the\ output\ of\ the\ gate\ by\ the\ ConnectorNodes\ attached\ to\ them\r\n\ @param\ None\r\n\ @return\ A\ byte\ that\ is\ the\ result\ of\ the\ gate\ applied\ to\ the\ values\ given\r\n
+numComments=8

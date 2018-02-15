@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=inputA\ inputB
+comment0.target=Node(byte,\ Gate)
+comment0.text=\r\n\ Assigns\ the\ attributes\ to\ their\ respective\ values\ as\ an\ InputNode\r\n\ @param\ inputA\ A\ byte\ that\ is\ assigned\ to\ the\ attribute\ val\r\n\ inputB\ A\ Gate\ object\ that\ is\ assigned\ to\ the\ attribute\ forwardGate\r\n\ @return\ None\r\n
+comment1.params=inputA\ inputB
+comment1.target=Node(Gate,\ Gate)
+comment1.text=\r\n\ Assigns\ the\ attributes\ to\ their\ respective\ values\ as\ a\ ConnectorNode\r\n\ @param\ inputA\ A\ Gate\ object\ that\ is\ assigned\ to\ the\ attribute\ backwardGate\r\n\ inputB\ A\ Gate\ object\ that\ is\ assigned\ to\ the\ attibute\ forwardGate\r\n\ @return\ None\r\n
+comment2.params=
+comment2.target=byte\ getDigitalValue()
+comment2.text=\r\n\ Returns\ the\ value\ of\ the\ attribute\ val\ if\ backwardGate\ is\ null,\ otherwise\ return\ the\ \r\n\ value\ of\ the\ previous\ gate\r\n\ @param\ None\r\n\ @return\ A\ byte\ representing\ the\ value\ of\ the\ Gate\ object\ based\ on\ its\ inputs\r\n
+comment3.params=
+comment3.target=Gate\ getForwardGate()
+comment3.text=\r\n\ Returns\ the\ gate\ that\ is\ connected\ to\ the\ front\ of\ the\ Node\ object\r\n\ @param\ None\r\n\ @return\ A\ Gate\ object\ that\ is\ assigned\ to\ the\ attribute\ forwardGate\r\n
+comment4.params=
+comment4.target=Gate\ getBackwardGate()
+comment4.text=\r\n\ Returns\ the\ gate\ that\ is\ connected\ to\ the\ back\ of\ the\ Node\ object\r\n\ @param\ None\r\n\ @return\ A\ Gate\ object\ that\ is\ assigned\ to\ the\ attribute\ backwardGate\r\n
+numComments=5

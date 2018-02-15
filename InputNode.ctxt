@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=inputA\ inputB
+comment0.target=InputNode(java.lang.String,\ Gate)
+comment0.text=\r\n\ Assigns\ the\ byte\ version\ of\ inputA\ and\ the\ Gate\ inputB\ to\ the\ superclass\r\n\ @param\ inputA\ A\ String\ that\ is\ coverted\ into\ a\ byte\ that\ is\ assigned\ to\ the\ constructor\r\n\ of\ the\ superclass\r\n\ inputB\ A\ Gate\ object\ that\ is\ assigned\ to\ the\ constructor\ of\ the\ superclass\r\n
+numComments=1
